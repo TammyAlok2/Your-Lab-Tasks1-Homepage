@@ -1,5 +1,17 @@
+
+import { SparklesPage } from '@/components/ui/SparklePage'
+import HeroScreen from '../components/ui/HeroScreen'
+
 export default function Home(){
   return (
-    <h2>Chai aur code </h2>
+  <>
+  <div className='flex flex-col center top-20'>
+  <HeroScreen/>
+<SparklesPage/>
+  </div>
+   
+  </>
+   
+  
   )
 }
